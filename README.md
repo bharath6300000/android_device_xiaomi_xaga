@@ -21,4 +21,4 @@ Display | 1080 x 2460 pixels, 6.6 inches, 30/48/50/60/90/120/144 hz, IPS LCD
 ## Device picture
 ![Redmi Note 11T Pro](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1653384568.5698588.png)
 
-Tree based on work of @wbs306 - all credits belong to him.
+Tree based on work of @wbs306 - all credits belong to him. and merged work for @ChrisCatto. and some sus edits my work
