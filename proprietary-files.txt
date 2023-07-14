@@ -752,7 +752,6 @@ vendor/lib64/mt6895/xagas5khm2_mipi_raw_3_tuning.so
 vendor/lib64/mt6895/xagas5khm2_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/xagas5khm2_mipi_raw_tuning.so
 
-
 # Camera configs
 vendor/etc/camera/102_SummerDay.png
 vendor/etc/camera/103_Fantasy.png
@@ -1069,24 +1068,6 @@ vendor/etc/miLut_6.txt
 vendor/etc/miLut_7.txt
 vendor/etc/miLut_8.txt
 vendor/etc/miLut_9.txt
-
-# Dolby
--system_ext/priv-app/daxService/daxService.apk|56ed0f574ef7d760e5404d8acd309a3c48eb28a5
--system_ext/priv-app/DaxUI/DaxUI.apk|21426b8bf9a1850e52c96ad52c47c7797144d969
-lib/vendor.dolby.hardware.dms@2.0.so
-lib64/vendor.dolby.hardware.dms@2.0.so
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
-vendor/etc/dolby/dax-default.xml
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
-vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
-vendor/lib/libdapparamstorage.so
-vendor/lib/libdeccfg.so
-vendor/lib/vendor.dolby.hardware.dms@2.0.so
-vendor/lib64/libdapparamstorage.so
-vendor/lib64/libdeccfg.so
-vendor/lib64/libdlbdsservice.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
 # Fingerprint
 vendor/lib/hw/fingerprint.fpc_isee.so
@@ -1465,20 +1446,6 @@ vendor/lib/wechat.beanpod.so
 vendor/lib64/lib_android_keymaster_keymint_utils.so
 vendor/lib64/libkeymint.so
 vendor/lib64/wechat.beanpod.so
-
-# MIUI Camera
-#lib64/libcamera_algoup_jni.xiaomi.so
-#lib64/libcamera_ispinterface_jni.xiaomi.so
-#lib64/libcamera_mianode_jni.xiaomi.so
-#lib64/libcameraservice.so
-#lib64/libcamera_client.so
-#lib64/libmtkisp_metadata_sys.so
-#lib64/libcamera_metadata.so
-#lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
-#-product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2,Aperture
-#system_ext/lib64/libcameraimpl.so
-#system_ext/lib64/libopencl-camera.so
-#system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 
 # Miscellaneous
 vendor/bin/FlashCompareAPI
@@ -3099,4 +3066,3 @@ vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/passpointProfile.conf
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-
