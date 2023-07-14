@@ -10,9 +10,6 @@ ro.surface_flinger.supports_background_blur=1
 # Brand
 Build.BRAND=MTK
 
-# Camera
-ro.camera.sound.forced=0
-
 # Dexopt
 dalvik.vm.dex2oat64.enabled=true
 
