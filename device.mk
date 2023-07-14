@@ -38,10 +38,6 @@ PRODUCT_PACKAGES += \
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
-# AAPT
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.common@6.0-util \
